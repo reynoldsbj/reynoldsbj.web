@@ -1,0 +1,26 @@
+<div class="maintenanceSection jumbotron">
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="maintenanceTextColumn">
+                    <aside>
+                        <h1>Oops!</h1>
+                        <h2>Under Construction</h2>
+                        <p>Looks like I'm still working on this feature. Come back later for updates!</p>
+                        <button (click)="navToGithub();" id="moreInfoBtn" type="button" class="btn btn-primary">More Info</button>
+                    </aside>
+                </td>
+                <td id="maintenanceImgColumn">
+                    <div id="{{maintenanceImg.id}}Div">
+                        <img [id]="maintenanceImg.id" [src]="maintenanceImg.src" [alt]="maintenanceImg.alt">
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

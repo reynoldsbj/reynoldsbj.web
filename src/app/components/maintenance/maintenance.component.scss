@@ -1,0 +1,31 @@
+td
+{
+    width: 50%;
+    height: 50%;
+}
+
+tr
+{
+    vertical-align: top;
+
+    #maintenanceTextColumn
+    {
+        padding-left: 3%;
+    }
+
+    #maintenanceImgColumn
+    {
+        padding-right: 3%;
+    }
+}
+
+#maintenanceImg1Div
+{
+    text-align: right;
+}
+
+#maintenanceImg1 
+{
+    max-width: 80%;
+    max-height: auto;
+}
