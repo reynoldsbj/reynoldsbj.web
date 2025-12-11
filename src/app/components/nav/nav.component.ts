@@ -13,6 +13,8 @@ export class NavComponent {
   route: string = "";
   routes: NavRoute[] = [
     new NavRoute('Home', '/home'),
+    new NavRoute('Dynamic Resume', '/dynamic-resume'),
+    new NavRoute('Roadmap', '/roadmap'),
     new NavRoute('Contact', '/contact')
   ];
 
